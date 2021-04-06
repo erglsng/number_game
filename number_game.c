@@ -13,28 +13,28 @@ main(){
 	srand(time(NULL));
 	
 	rastgeleSayi = rand() % 10;
-	do{
-			printf(" 1-10 Arasi sayi tutulmustur:\n");
+do{  
+	printf(" 1-10 Arasi sayi tutulmustur:\n");
 	printf(" Tahmininiz Nedir?:");
 	scanf("%d",&girilenSayi);
 	
-	if(rastgeleSayi < girilenSayi){
-		printf("Girdiginiz sayi buyuktur daha kucuk bir sayi girin");
-			printf("\n\n");
+if(rastgeleSayi < girilenSayi){
+	printf("Girdiginiz sayi buyuktur daha kucuk bir sayi girin");
+	printf("\n\n");
 
 		}
-	else if(rastgeleSayi > girilenSayi){
-				printf("Girdiginiz sayi kucuktur daha buyuk bir sayi girin");
-printf("\n\n");
+else if(rastgeleSayi > girilenSayi){
+	printf("Girdiginiz sayi kucuktur daha buyuk bir sayi girin");
+        printf("\n\n");
 
 	}
 	denemeSayisi++;
 	
 
 
-	} while(rastgeleSayi != girilenSayi);
+} while(rastgeleSayi != girilenSayi);
 
-   printf("Tebrikler. %d. seferde bildiniz",denemeSayisi);
+        printf("Tebrikler. %d. seferde bildiniz",denemeSayisi);
    
 	 
    
