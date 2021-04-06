@@ -18,22 +18,13 @@ main(){
 	printf(" Tahmininiz Nedir?:");
 	scanf("%d",&girilenSayi);
 	
-	/*if(girilenSayi>10){
-		printf("10'dan buyuktur. Sadece 1-10 arasinda sayi giriniz\n");
+	if(girilenSayi>10 ){
+		printf("Bu sayi 1-10 arasinda degildir. Sadece 1-10 arasinda sayi giriniz\n");
 	}
-	else if(girilenSayi<10)
-	{
-		printf("1'den kucuktur.Sadece 1-10 arasinda sayi giriniz\n"); GİRİLEN SAYININ 1-10 ARASINDA OLUP OLMADIĞINI KONTROL EDEN İF-ELSE İF KOMUTLARI
-		
-	}*/
-	if(girilenSayi>10){
-	printf("10'dan buyuktur. Sadece 1-10 arasinda sayi giriniz\n");
+	else if( girilenSayi<1){
+		printf("Bu sayi 1-10 arasinda degildir. Sadece 1-10 arasinda sayi giriniz\n");
 	}
-	else if(girilenSayi<10)
-	{
-		printf("1'den kucuktur.Sadece 1-10 arasinda sayi giriniz\n");
-		
-	}
+	
 	
 	if(rastgeleSayi < girilenSayi){
 		printf("Girdiginiz sayi buyuktur daha kucuk bir sayi girin");
@@ -49,6 +40,7 @@ printf("\n\n");
 	
 	
 	}
+	
 	denemeSayisi++;
 	
 
